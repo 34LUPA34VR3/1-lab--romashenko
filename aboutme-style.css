@@ -1,0 +1,72 @@
+/* Общие стили для body */
+body {
+    background-color: #f0f8ff; /* Цвет фона - светло-голубой */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 40px;
+}
+
+/* Стили для заголовков */
+h1 {
+    color: #2c3e50; /* Темно-синий цвет */
+    font-family: Georgia, serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid #3498db; /* Синяя линия под заголовком */
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #7f8c8d; /* Серый цвет */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+/* Стили для абзацев (без буквицы!) */
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    color: #2c3e50;
+    /* Убрали ::first-letter, чтобы не было съехавшей буквы */
+}
+
+/* Стиль для абзаца с именем и ником */
+p.name-nick {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.3em;       
+    font-weight: bold;       
+    color: #2c3e50;         
+    margin-top: 15px;        
+    margin-bottom: 20px;     
+}
+
+/* Стили для списков */
+ul, ol {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: #2c3e50;
+    margin-left: 20px;
+}
+
+/* Стили для ссылок (псевдоклассы) */
+a {
+    color: #3498db; /* Синий цвет ссылки */
+    text-decoration: none; /* Убираем подчеркивание по умолчанию */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Добавляем подчеркивание при наведении */
+    color: #e74c3c; /* Меняем цвет при наведении */
+}
+
+/* Стили для изображений */
+img {
+    margin: 10px;
+    border: 2px solid #bdc3c7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
